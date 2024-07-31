@@ -3,9 +3,9 @@ class Carro {
     cor;
     combustivel_por_km;
 
-    constructor (marca, nome, combustivel_por_km){
+    constructor (marca, cor, combustivel_por_km){
         this.marca = marca;
-        this.nome = nome;
+        this.cor = cor;
         this.combustivel_por_km = combustivel_por_km;
     }
 
